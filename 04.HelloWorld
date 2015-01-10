@@ -1,0 +1,25 @@
+using System;
+
+
+    class HelloWorld
+    {
+        static void Main()
+        {
+            string helloCSharp = "Hello C#!";
+                        
+            //Print Hello World!
+
+             Console.WriteLine("Hello World!");     
+             Console.WriteLine();   
+              
+            //Print Hello CSharp!
+             
+            Console.WriteLine("Hello CSharp!");  
+
+            //Print HelloC#!
+             Console.WriteLine("{0}" , helloCSharp); 
+
+
+        }
+    }
+
